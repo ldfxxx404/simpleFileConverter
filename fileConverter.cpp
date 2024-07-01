@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
      string inputFile = argv[1];
      string outputFile = argv[2];
 
-
     std::string command = "ffmpeg -i " + inputFile + " " + outputFile;
 
     int status = std::system(command.c_str());
